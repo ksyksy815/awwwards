@@ -31,7 +31,7 @@ body {
   }
 
   @font-face {
-    font-family: "zentry-regular";
+    font-family: "zentry";
     src: url("/fonts/zentry-regular.woff2") format("woff2");
   }
 }
