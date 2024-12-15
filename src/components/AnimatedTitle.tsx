@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 type Props = {
   title: string;
-  containerClass: string;
+  containerClass?: string;
 };
 const AnimatedTitle = ({ title = "", containerClass = "" }: Props) => {
   const containerRef = useRef(null);
